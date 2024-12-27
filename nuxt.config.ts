@@ -9,5 +9,8 @@ export default defineNuxtConfig({
     '@nuxtjs/seo',
     '@nuxt/icon'
   ],
+  robots: {
+    blockNonSeoBots: true
+  },
   devtools: { enabled: true }
 })
