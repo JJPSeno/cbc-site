@@ -3,21 +3,14 @@
     class="flex h-screen"
   >
     <div
-      class="w-2/3 bg-purple-400"
+      class="sm:w-2/3 w-0 overflow-hidden bg-purple-400 flex justify-center items-center"
     >
-      <h1>Hello World</h1>
+      <h3>Hello World</h3>
     </div>
     <div
-      class="w-1/3 flex justify-center items-center"
+      class="sm:w-1/3 w-full flex justify-center items-center"
     >
-      <form
-        class="flex flex-col"
-      >
-        <input placeholder="email">
-        <input placeholder="password">
-        <button type="submit">Login</button>
-        <button >Register</button>
-      </form>
+      <CbcLogin />
     </div>
   </div>
 </template>

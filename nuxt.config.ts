@@ -7,10 +7,17 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/fonts',
     '@nuxtjs/seo',
-    '@nuxt/icon'
+    '@nuxt/icon',
+    '@vee-validate/nuxt'
   ],
   robots: {
     blockNonSeoBots: true
   },
-  devtools: { enabled: true }
+  devtools: { enabled: true },
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false
+    }
+  ],
 })
