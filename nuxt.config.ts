@@ -8,7 +8,8 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxtjs/seo',
     '@nuxt/icon',
-    '@vee-validate/nuxt'
+    '@vee-validate/nuxt',
+    '@nuxt/image',
   ],
   robots: {
     blockNonSeoBots: true
