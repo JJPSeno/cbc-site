@@ -1,21 +1,24 @@
 <template>
   <div 
-    class="bg-pink-500/50 p-3"
+    class="bg-pink-500/50"
   >
     <CbcHeader />
-    <div 
-      class="h-66 w-full bg-green-500/50"
-    > 
-      <div
-        class="basis-1/2 w-full bg-slate-200/50" 
-      >
-        <NuxtImg src="icons/profile.svg" />
-      </div> 
-      <div
-        class="basis-1/2 w-full bg-black/50" 
-      >
-      </div> 
-      asdsa
+    <div
+      class="p-3"
+    >
+      <div 
+        class="flex flex-col h-64 w-full bg-green-500/50 rounded-3xl"
+      > 
+        <div
+          class="basis-1/2 w-full bg-slate-200/50 rounded-t-3xl" 
+        >
+          <NuxtImg height="128" width="128" src="icons/profile.svg" />
+        </div> 
+        <div
+          class="basis-1/2 w-full bg-black/50 rounded-b-3xl" 
+        >
+        </div> 
+      </div>
     </div>
   </div>
 </template>
