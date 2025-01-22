@@ -13,6 +13,7 @@
           class="basis-1/2 w-full bg-slate-200/50 rounded-t-3xl" 
         >
           <NuxtImg
+            preload
             class="absolute top-16 left-8"
             height="128" 
             width="128" 
