@@ -1,23 +1,27 @@
 <template>
-  <div
-    class="flex"
+  <NuxtLink
+    :to="`/business/${props.business.id}`"
   >
-    <NuxtImg
-      class="h-20 w-20 border-2 border-black" src="misc/test.jpg" width="40" height="40" 
-    />
     <div
-      class="ml-2"
+      class="flex"
     >
-      <p
-        class="text-xl"
+      <NuxtImg
+        class="h-20 w-20 border-2 border-black" src="misc/test.jpg" width="40" height="40" 
+      />
+      <div
+        class="ml-2"
       >
-        {{ props.business.companyName }}
-      </p>
-      <p>
-        {{ props.business.address }}
-      </p>
+        <p
+          class="text-xl"
+        >
+          {{ props.business.companyName }}
+        </p>
+        <p>
+          {{ props.business.address }}
+        </p>
+      </div>
     </div>
-  </div>
+  </NuxtLink>
 </template>
 <script setup lang="ts">
 const props = defineProps<{business: Business}>()
