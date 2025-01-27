@@ -19,6 +19,14 @@
         <p>
           {{ props.business.address }}
         </p>
+        <p>
+          <span 
+            v-for="contact in props.business.contactInfo" 
+            class="mr-2"
+          >
+            {{ contact }}
+          </span>
+        </p>
       </div>
     </div>
   </NuxtLink>
