@@ -1,7 +1,5 @@
 <template>
-  <div 
-    class="bg-pink-500/50"
-  >
+  <div>
     <CbcHeader />
     <CbcProfile />
   </div>
