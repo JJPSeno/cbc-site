@@ -1,6 +1,6 @@
 <template>
   <section
-    class="fixed w-full h-24 pb-0.5 px-0 sm:px-40 flex justify-between bg-black"  
+    class="fixed w-full h-24 pb-0.5 px-0 sm:px-40 flex justify-between bg-primary"  
   >
     <div
       class="flex items-center justify-center px-16 bg-white border-black border-2"

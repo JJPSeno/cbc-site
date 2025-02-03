@@ -3,7 +3,11 @@ module.exports = {
     extend: {
       colors: {
         'edge': '#EED6EE',
-        'rich-black': '#03191E',
+        primary: "var(--color-primary)",
+        secondary: "var(--color-secondary)",
+        accent: "var(--color-accent)",
+        neutral: "var(--color-neutral)",
+        muted: "var(--color-muted)",
       },
       fontSize: {
         h1: ['2.25rem', { lineHeight: '2.5rem', fontWeight: '700' }], // MDN's large headers
