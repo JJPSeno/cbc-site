@@ -2,15 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-
-:root {
-  --color-primary: #4338CA;
-  --color-secondary: #679436;
-  --color-accent: #8C38CA;
-  --color-neutral: #EBF2FA;
-  --color-muted: #3876CA;
+@layer base {
+  :root {
+    --color-primary: #4338CA;
+    --color-secondary: #679436;
+    --color-accent: #8C38CA;
+    --color-neutral: #EBF2FA;
+    --color-muted: #3876CA;
+  }
 }
-
 
 @layer utilities {
   .theme-default {
