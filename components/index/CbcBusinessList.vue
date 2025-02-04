@@ -6,7 +6,7 @@
       class="flex flex-col gap-4 w-full"
     >
       <li
-        class="w-full rounded-md p-2 outline outline-2 outline-black bg-white"
+        class="w-full rounded-md p-2 shadow-xl bg-white"
         v-for="business in businesses"
         :key="business.id"
       >
