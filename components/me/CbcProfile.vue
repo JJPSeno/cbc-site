@@ -1,6 +1,6 @@
 <template>
-  <div
-    class="py-3 pt-28 px-0 sm:px-40 bg-indigo-300"
+  <section
+    class="py-3 pt-28 px-0 h-svh sm:px-40 bg-indigo-300"
   >
     <div 
       class="flex relative flex-col h-64 w-full bg-green-500/50 rounded-3xl"
@@ -21,5 +21,5 @@
       >
       </div> 
     </div>
-  </div>
+  </section>
 </template>
