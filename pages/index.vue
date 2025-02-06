@@ -1,7 +1,4 @@
 <template>
-  <div>
-    <CbcHeader />
-    <CbcBusinessList />
-  </div>
+  <CbcBusinessList />
 </template>
 

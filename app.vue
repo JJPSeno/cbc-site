@@ -1,9 +1,5 @@
 <template>
-  <Body
-    class="theme-default"
-  >
-    <NuxtLayout> 
-      <NuxtPage />
-    </NuxtLayout>
-  </Body>
+  <NuxtLayout> 
+    <NuxtPage />
+  </NuxtLayout>
 </template>

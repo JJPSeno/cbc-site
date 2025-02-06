@@ -1,6 +1,3 @@
 <template>
-  <div>
-    <CbcHeader />
-    <CbcProfile />
-  </div>
+  <CbcProfile />
 </template>
