@@ -1,6 +1,6 @@
 <template>
   <form
-    class="flex flex-col"
+    class="flex flex-col bg-slate-400 shadow-xl rounded-xl p-10"
   >
     <CbcInput
       v-model="email"
