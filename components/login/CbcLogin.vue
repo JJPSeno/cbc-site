@@ -1,5 +1,6 @@
 <template>
   <form
+    id="login"
     class="flex flex-col bg-slate-400 shadow-xl rounded-xl p-10"
   >
     <CbcInput
@@ -24,7 +25,7 @@
       </template> -->
     </CbcInput>
       <button type="submit">Login</button>
-      <button >Register</button>
+      <button @click="navigateTo('/login?register=true')">Register</button>
   </form>
 </template>
 <script lang="ts" setup>
