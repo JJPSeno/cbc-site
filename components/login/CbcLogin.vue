@@ -1,7 +1,7 @@
 <template>
   <form
     id="login"
-    class="flex flex-col bg-slate-400 shadow-xl rounded-xl p-10"
+    class="flex flex-col bg-primary shadow-xl rounded-xl p-10 text-white"
   >
     <CbcInput
       v-model="email"
@@ -25,7 +25,17 @@
       </template> -->
     </CbcInput>
       <button type="submit">Login</button>
-      <button @click="navigateTo('/login?register=true')">Register</button>
+      <NuxtLink 
+        :to="{
+          path: '/login',
+          query: {
+            register: 'true'
+          }
+        }"
+        class="w-full text-center"
+      >
+        Register
+      </NuxtLink>
   </form>
 </template>
 <script lang="ts" setup>

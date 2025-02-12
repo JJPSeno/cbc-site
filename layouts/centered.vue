@@ -1,6 +1,6 @@
 <template>
   <div
-    class="h-dvh flex justify-center items-center"
+    class="h-dvh flex justify-center items-center bg-indigo-300"
   >
     <slot />
   </div>

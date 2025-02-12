@@ -2,7 +2,7 @@
 <template>
   <form
     id="register"
-    class="flex flex-col bg-slate-400 shadow-xl rounded-xl p-10"
+    class="flex flex-col bg-primary shadow-xl rounded-xl p-10 text-white"
   >
     <CbcInput
       v-model="email"

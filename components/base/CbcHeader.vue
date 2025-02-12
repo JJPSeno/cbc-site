@@ -20,6 +20,11 @@
       >
         Profile
       </NuxtLink>
+      <NuxtLink
+        to="/login"
+      >
+        Login
+      </NuxtLink>
     </nav>
   </section>
 </template>

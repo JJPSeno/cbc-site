@@ -8,7 +8,7 @@
         v-if="!!label"
       >
         <span
-          class="text-black text-sm font-bold"
+          class="text-sm font-bold"
         >
           {{ label }}
         </span>
@@ -28,7 +28,7 @@
         v-model="modelValue"
         :type="type"
         :placeholder="!!placeholder?placeholder:''"
-        class="w-full mt-2 p-2 bg-gray-300 h-11 rounded-xl"
+        class="w-full mt-2 p-2 bg-white h-11 rounded-xl"
       >
     </label>
     <div class="absolute mt-1 text-nowrap text-xs text-red-500">
