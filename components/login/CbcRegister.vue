@@ -1,8 +1,7 @@
 
 <template>
-  <form
+  <CbcForm
     id="register"
-    class="flex flex-col bg-primary shadow-xl rounded-xl p-10 text-white"
   >
     <CbcInput
       v-model="email"
@@ -53,8 +52,8 @@
         {{ isSubmitted?errors.password:'' }}
       </template> -->
     </CbcInput>
-      <button type="submit">Submit</button>
-  </form>
+    <button form="register" type="submit">Submit</button>
+  </CbcForm>
 </template>
 <script lang="ts" setup>
 const email = ref('')

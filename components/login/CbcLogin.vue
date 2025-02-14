@@ -1,14 +1,13 @@
 <template>
-  <form
+  <CbcForm
     id="login"
-    class="flex flex-col bg-primary shadow-xl rounded-xl p-10 text-white"
   >
     <CbcInput
-      v-model="email"
-      label="Email"
-      placeholder="email@example.com"
-      class="grow"
-      :is-required="true"
+        v-model="email"
+        label="Email"
+        placeholder="email@example.com"
+        class="grow"
+        :is-required="true"
     >
       <!-- <template #error>
         {{ isSubmitted?errors.email:'' }}
@@ -24,19 +23,14 @@
         {{ isSubmitted?errors.password:'' }}
       </template> -->
     </CbcInput>
-      <button type="submit">Login</button>
-      <NuxtLink 
-        :to="{
-          path: '/login',
-          query: {
-            register: 'true'
-          }
-        }"
-        class="w-full text-center"
-      >
-        Register
-      </NuxtLink>
-  </form>
+    <button form="login" type="submit">Login</button>
+    <NuxtLink 
+      :to="{path: '/login', query: { register: 'true' } }"
+      class="w-full text-center"
+    >
+      Register
+    </NuxtLink>
+  </CbcForm>
 </template>
 <script lang="ts" setup>
 const email = ref('')
