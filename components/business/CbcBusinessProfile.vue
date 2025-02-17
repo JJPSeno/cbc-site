@@ -1,5 +1,7 @@
 <template>
-  <div>
+  <div
+    class="w-full min-h-screen rounded-md p-2 shadow-xl bg-white"
+  >
     {{ businessProfile?.companyName }}
   </div>
 </template>
