@@ -8,7 +8,8 @@ export const useBusiness = () => {
         contactInfo: {
           email: "juansari@email.com",
           phoneNumber: "09*********",
-        }
+        },
+        desription: "Serving fresh local food and vegetables available right in your reach. Everyday!"
       },
       {
         id: "819006bf-13f8-4bb8-8c26-5b666ceb36ca",
@@ -26,6 +27,7 @@ export const useBusiness = () => {
         contactInfo: {
           phoneNumber: "09*********"
         },
+        desription: "30 pesos per kilo only. Contact 09********* for franchising questions"
       },
     ]
   })

@@ -1,6 +1,6 @@
 declare interface ContactInformation {
-  email?: string;
-  phoneNumber: string;
+  email?: string
+  phoneNumber: string
 }
 
 declare interface Business {
@@ -8,4 +8,5 @@ declare interface Business {
   companyName: string
   address: string
   contactInfo: ContactInformation
+  desription?: string
 }
