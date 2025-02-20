@@ -1,14 +1,14 @@
 <template>
   <section
-    class="fixed w-full h-24 pb-0.5 px-0 sm:px-40 flex justify-between bg-primary"  
+    class="fixed w-full h-24 pb-0.5 px-0 sm:px-40 flex justify-between items-center bg-accent"
   >
     <div
-      class="flex items-center justify-center px-16 bg-white outline outline-2 outline-black border-t-2 border-black"
+      class="flex items-center justify-center px-16 bg-primary h-20"
     >
       Header
     </div>
     <nav
-      class="flex *:flex *:items-center *:justify-center *:px-8 *:bg-white *:outline *:outline-2 *:outline-black *:border-t-2 *:border-black"
+      class="flex basis-3 gap-2 *:flex *:items-center *:justify-center *:px-8 h-16 *:rounded-lg *:bg-primary"
     >
       <NuxtLink
         to="/"

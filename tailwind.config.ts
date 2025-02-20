@@ -8,6 +8,7 @@ module.exports = {
         accent: "var(--color-accent)",
         neutral: "var(--color-neutral)",
         muted: "var(--color-muted)",
+        'secondary-dark': "var(--secondary-dark)",
       },
       fontSize: {
         h1: ['2.25rem', { lineHeight: '2.5rem', fontWeight: '700' }], // MDN's large headers

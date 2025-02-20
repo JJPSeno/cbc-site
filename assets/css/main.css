@@ -4,20 +4,23 @@
 
 @layer base {
   :root {
-    --color-primary: #4338CA;
-    --color-secondary: #679436;
-    --color-accent: #8C38CA;
+    --color-primary: #FBFBFB;
+    --color-secondary: #C5BAFF;
+    --color-accent: #C4D9FF;
     --color-neutral: #EBF2FA;
-    --color-muted: #3876CA;
+    --color-muted: #E8F9FF;
+    --secondary-dark: #4d4864;
+    @apply text-secondary-dark;
   }
 }
 
 @layer utilities {
   .theme-default {
-    --color-primary: #4338CA;
-    --color-secondary: #679436;
-    --color-accent: #8C38CA;
+    --color-primary: #FBFBFB;
+    --color-secondary: #C5BAFF;
+    --color-accent: #C4D9FF;
     --color-neutral: #EBF2FA;
-    --color-muted: #3876CA;
+    --color-muted: #E8F9FF;
+    --secondary-dark: #C5BAFF;
   }
 }

@@ -6,7 +6,7 @@
       class="flex"
     >
       <NuxtImg
-        class="h-20 w-20 border-2 border-black" src="misc/test.jpg" width="40" height="40"
+        class="h-20 w-20" src="misc/test.jpg" width="40" height="40"
         preload
       />
       <div

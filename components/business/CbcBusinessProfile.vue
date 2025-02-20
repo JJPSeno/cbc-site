@@ -4,7 +4,7 @@
   >
     <div>
       <NuxtImg
-        class="border-2 border-black aspect-square" src="misc/test.jpg" width="250" height="250"
+        class="aspect-square" src="misc/test.jpg" width="250" height="250"
         preload
       />
     </div>
