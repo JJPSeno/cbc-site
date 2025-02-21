@@ -1,6 +1,12 @@
 module.exports = {
   theme: {
     extend: {
+      screens:{
+        standard: '1100px'
+      },
+      spacing:{
+        standard: '1100px'
+      },
       colors: {
         'edge': '#EED6EE',
         primary: "var(--color-primary)",

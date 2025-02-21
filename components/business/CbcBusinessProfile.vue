@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full min-h-screen rounded-md p-2 shadow-xl bg-white flex"
+    class="w-full min-h-screen max-w-standard mx-auto rounded-md p-2 shadow-xl bg-white flex"
   >
     <div>
       <NuxtImg

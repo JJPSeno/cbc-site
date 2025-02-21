@@ -1,6 +1,6 @@
 <template>
   <main
-    class="w-1/3"
+    class="w-1/3 max-w-standard"
   >
     <CbcLogin v-if="$route.query.register !== 'true'" />
     <CbcRegister v-else />

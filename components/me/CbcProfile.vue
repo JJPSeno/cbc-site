@@ -1,6 +1,6 @@
 <template>
   <div 
-    class="flex relative flex-col h-64 w-full rounded-3xl shadow-xl"
+    class="flex relative flex-col h-64 w-full max-w-standard mx-auto rounded-3xl shadow-xl"
   > 
     <div
       class="basis-1/2 w-full bg-slate-200/50 rounded-t-3xl" 

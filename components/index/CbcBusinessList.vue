@@ -1,6 +1,6 @@
 <template>
   <ul
-    class="flex flex-col gap-4 w-full"
+    class="flex flex-col gap-4 w-full max-w-standard mx-auto"
   >
     <li
       class="w-full rounded-md p-2 shadow-xl bg-primary"
