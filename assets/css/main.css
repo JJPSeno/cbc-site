@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #FBFBFB;
+    --color-secondary: #C5BAFF;
+    --color-accent: #C4D9FF;
+    --color-neutral: #EBF2FA;
+    --color-muted: #E8F9FF;
+    --secondary-dark: #4d4864;
+    @apply text-secondary-dark;
+  }
+}
+
+@layer utilities {
+  .theme-default {
+    --color-primary: #FBFBFB;
+    --color-secondary: #C5BAFF;
+    --color-accent: #C4D9FF;
+    --color-neutral: #EBF2FA;
+    --color-muted: #E8F9FF;
+    --secondary-dark: #C5BAFF;
+  }
+}
