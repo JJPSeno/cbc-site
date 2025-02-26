@@ -4,7 +4,7 @@
     class="fixed w-full h-24 pb-0.5 px-0 sm:px-40 bg-accent"
   >
     <section
-      class="max-w-standard mx-auto flex justify-between items-center"
+      class="max-w-standard flex justify-between items-center absolute w-full top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2"
     >
       <div
         class="flex items-center justify-center px-16 bg-primary h-20"
