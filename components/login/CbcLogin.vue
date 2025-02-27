@@ -23,13 +23,28 @@
         {{ isSubmitted?errors.password:'' }}
       </template> -->
     </CbcInput>
-    <button form="login" type="submit">Login</button>
-    <NuxtLink 
-      :to="{path: '/login', query: { register: 'true' } }"
-      class="w-full text-center"
+    <button 
+      class="w-full text-center bg-accent p-4 rounded-full text-black"
+      form="login" 
+      type="submit"
     >
-      Register
-    </NuxtLink>
+      Login
+    </button>
+    <section
+      class="flex align-middle w-full"
+    >
+      <p
+        class="inline-block grow content-center text-black"
+      >
+        New to Cebu Business Connect?
+      </p>
+      <NuxtLink 
+        :to="{path: '/login', query: { register: 'true' } }"
+        class="grow text-center bg-accent p-2 rounded-xl text-black"
+      >
+        Register
+      </NuxtLink>
+    </section>
   </CbcForm>
 </template>
 <script lang="ts" setup>
