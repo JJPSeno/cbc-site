@@ -52,7 +52,12 @@
         {{ isSubmitted?errors.password:'' }}
       </template> -->
     </CbcInput>
-    <button form="register" type="submit">Submit</button>
+    <button
+      class="w-full text-center bg-accent mt-2 p-4 rounded-full text-black"
+      form="register" type="submit"
+    >
+      Submit
+    </button>
   </CbcForm>
 </template>
 <script lang="ts" setup>
