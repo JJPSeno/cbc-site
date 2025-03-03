@@ -53,7 +53,7 @@
       </template> -->
     </CbcInput>
     <button
-      class="w-full text-center bg-accent mt-2 p-4 rounded-full text-black"
+      class="w-full text-center bg-accent mt-8 p-4 rounded-full text-black"
       form="register" type="submit"
     >
       Submit

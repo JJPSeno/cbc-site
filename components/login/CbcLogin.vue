@@ -24,7 +24,7 @@
       </template> -->
     </CbcInput>
     <button 
-      class="w-full text-center bg-accent p-4 rounded-full text-black"
+      class="w-full text-center bg-accent p-4 mt-8 rounded-full text-black"
       form="login" 
       type="submit"
     >
