@@ -1,24 +1,25 @@
 <template>
   <div 
-    class="flex relative flex-col h-64 w-full max-w-standard mx-auto rounded-3xl shadow-xl"
+    class="flex relative flex-col h-64 w-full max-w-standard mx-auto rounded-3xl shadow-xl overflow-hidden"
   > 
     <div
-      class="basis-1/2 w-full bg-accent rounded-t-3xl content-end" 
+      class="basis-1/2 w-full bg-accent rounded-t-3xl flex" 
     >
+      <h1
+        class="relative font-400 text-6xl content-center w-full"
+      >
+        {{ myProfile.display_name }}
+      </h1>
       <div
-        class="absolute top-16 left-8 flex"
+        class="absolute flex w-full"
       >
         <NuxtImg
+          class="relative -left-24 -top-20"
           preload
-          height="128" 
-          width="128" 
+          height="400" 
+          width="400" 
           src="icons/profile.svg" 
         />
-        <h1
-          class="relative ml-2 top-6 font-400 text-3xl"
-        >
-          {{ myProfile.display_name }}
-        </h1>
       </div>
     </div> 
     <div
