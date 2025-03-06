@@ -6,19 +6,19 @@
       class="basis-1/2 w-full bg-accent rounded-t-3xl flex" 
     >
       <h1
-        class="relative font-400 text-6xl content-center w-full"
+        class="relative font-400 text-6xl content-center w-full text-center"
       >
         {{ myProfile.display_name }}
       </h1>
       <div
-        class="absolute flex w-full"
+        class="absolute flex w-full rounded-full"
       >
         <NuxtImg
           class="relative -left-24 -top-20"
           preload
           height="400" 
           width="400" 
-          src="icons/profile.svg" 
+          src="misc/test.jpg" 
         />
       </div>
     </div> 
