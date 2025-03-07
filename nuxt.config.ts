@@ -11,7 +11,12 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@vee-validate/nuxt',
     '@nuxt/image',
+    'shadcn-nuxt',
   ],
+  shadcn: {
+    prefix: 'Cbc',
+    componentDir: './components/ui'
+  },
   robots: {
     blockNonSeoBots: true
   },

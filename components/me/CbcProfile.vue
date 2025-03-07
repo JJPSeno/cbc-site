@@ -13,13 +13,13 @@
       <div
         class="absolute flex w-full rounded-full"
       >
-        <NuxtImg
-          class="relative -left-24 -top-20"
-          preload
-          height="400" 
-          width="400" 
+      <Avatar>
+        <AvatarImage
+          class="w-20 h-20"
           src="misc/test.jpg" 
-        />
+          :alt="`${myProfile.display_name}'s avatar'`" />
+        <AvatarFallback>{{ initials }}</AvatarFallback>
+      </Avatar>
       </div>
     </div> 
     <div
@@ -29,6 +29,10 @@
   </div>
 </template>
 <script setup lang="ts">
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 const { myProfile } = useProfile()
+const initials = computed(() => {
+  return myProfile.value.display_name?.charAt(0) || ""
+})
 
 </script>
