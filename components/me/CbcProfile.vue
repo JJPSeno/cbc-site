@@ -8,18 +8,16 @@
       <h1
         class="relative font-400 text-6xl content-center w-full text-center"
       >
-        {{ myProfile.display_name }}
+        {{ myProfile.displayName }}
       </h1>
       <div
         class="absolute flex w-full rounded-full"
       >
-      <Avatar>
-        <AvatarImage
-          class="w-20 h-20"
-          src="misc/test.jpg" 
-          :alt="`${myProfile.display_name}'s avatar'`" />
-        <AvatarFallback>{{ initials }}</AvatarFallback>
-      </Avatar>
+      <CbcAvatar
+        class="ml-10 mt-10"
+        size="lg"
+        src="misc/test.jpg"
+      />
       </div>
     </div> 
     <div
@@ -29,10 +27,6 @@
   </div>
 </template>
 <script setup lang="ts">
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 const { myProfile } = useProfile()
-const initials = computed(() => {
-  return myProfile.value.display_name?.charAt(0) || ""
-})
 
 </script>
