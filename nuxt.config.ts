@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  devtools: { enabled: true },
   compatibilityDate: '2024-11-01',
   css: ['~/assets/css/main.css'],
   modules: [
@@ -20,7 +21,6 @@ export default defineNuxtConfig({
   robots: {
     blockNonSeoBots: true
   },
-  devtools: { enabled: true },
   components: [
     {
       path: '~/components',

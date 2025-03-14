@@ -53,11 +53,9 @@
         {{ isSubmitted?errors.password:'' }}
       </template> -->
     </CbcInput>
-    <p
+    <CbcCheckbox
       class="text-black"
-    >
-      I agree to the terms of service.
-    </p>
+    />
     <button
       class="w-full text-center bg-accent mt-3 p-4 rounded-full text-black"
       form="register" type="submit"
@@ -67,6 +65,8 @@
   </CbcForm>
 </template>
 <script lang="ts" setup>
+import CbcCheckbox from '../base/CbcCheckbox.vue'
+
 const email = ref('')
 const password = ref('')
 const displayName = ref('')
