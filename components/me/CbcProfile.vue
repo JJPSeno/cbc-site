@@ -1,28 +1,28 @@
 <template>
   <div 
-    class="flex relative flex-col h-64 w-full max-w-standard mx-auto rounded-3xl shadow-xl overflow-hidden"
+    class="flex flex-col h-64 w-full rounded-none sm:max-w-standard sm:mx-auto sm:rounded-3xl shadow-none sm:shadow-xl overflow-hidden border-b border-gray-400"
   > 
     <div
-      class="basis-1/2 w-full bg-accent rounded-t-3xl flex" 
+      class="basis-1/2 w-full bg-accent flex" 
     >
-      <h1
+      <div
+        class="relative flex w-full rounded-full items-center justify-center"
+      >
+        <CbcAvatar
+          class="absolute translate-y-12"
+          size="xl"
+          src="misc/test.jpg"
+        />
+      </div>
+    </div> 
+    <div
+      class="basis-1/2 w-full bg-neutral" 
+    >
+    <h1
         class="relative font-400 text-6xl content-center w-full text-center"
       >
         {{ myProfile.displayName }}
       </h1>
-      <div
-        class="absolute flex w-full rounded-full"
-      >
-      <CbcAvatar
-        class="ml-10 mt-10"
-        size="lg"
-        src="misc/test.jpg"
-      />
-      </div>
-    </div> 
-    <div
-      class="basis-1/2 w-full bg-neutral rounded-b-3xl" 
-    >
     </div> 
   </div>
 </template>

@@ -1,7 +1,5 @@
 <template>
-    <Avatar
-      size="base"
-    >
+  <Avatar>
     <AvatarImage
       :src="props.src" 
       :alt="`${displayName}'s avatar'`"
