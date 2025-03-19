@@ -1,6 +1,6 @@
 <template>
   <div 
-    class="flex flex-col h-64 w-full rounded-none sm:max-w-standard sm:mx-auto sm:rounded-3xl shadow-none sm:shadow-xl overflow-hidden border-b border-gray-400"
+    class="flex flex-col h-64 w-full rounded-none md:max-w-standard md:mx-auto md:rounded-3xl shadow-none md:shadow-xl overflow-hidden border-b border-gray-400"
   > 
     <div
       class="basis-1/2 w-full bg-accent flex" 
