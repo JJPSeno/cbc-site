@@ -3,7 +3,7 @@ export const useProfile = () => {
     return {
       id: "00000020f51bb4362eee2a4d",
       email: "jjp.s@example.com",
-      display_name: "jjps"
+      displayName: "jjps"
     }
   })
 
@@ -12,7 +12,7 @@ export const useProfile = () => {
       {
         id: "00000020f51bb4362eee2a4d",
         email: "jjp.s@example.com",
-        display_name: "jjps"
+        displayName: "jjps"
       },
       {
         id: "67a2e1a13e5a709de726392f",

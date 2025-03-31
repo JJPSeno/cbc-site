@@ -2,6 +2,7 @@
 <template>
   <CbcForm
     id="register"
+    class="text-black pt-40 md:pt-0"
   >
     <CbcInput
       v-model="email"
@@ -52,10 +53,20 @@
         {{ isSubmitted?errors.password:'' }}
       </template> -->
     </CbcInput>
-    <button form="register" type="submit">Submit</button>
+    <CbcCheckbox
+      class="text-black"
+    />
+    <button
+      class="w-full text-center bg-accent mt-3 p-4 rounded-full text-black"
+      form="register" type="submit"
+    >
+      Submit
+    </button>
   </CbcForm>
 </template>
 <script lang="ts" setup>
+import CbcCheckbox from '../base/CbcCheckbox.vue'
+
 const email = ref('')
 const password = ref('')
 const displayName = ref('')
