@@ -12,6 +12,7 @@
           class="absolute translate-y-12"
           size="xl"
           src="misc/test.jpg"
+          as="img"
         />
       </div>
     </div> 

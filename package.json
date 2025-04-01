@@ -13,7 +13,7 @@
     "@nuxt/eslint": "0.7.4",
     "@nuxt/fonts": "0.10.3",
     "@nuxt/icon": "1.10.3",
-    "@nuxt/image": "1.9.0",
+    "@nuxt/image": "^1.10.0",
     "@nuxtjs/seo": "^2.2.0",
     "@vee-validate/nuxt": "^4.15.0",
     "@vee-validate/zod": "^4.15.0",
@@ -24,6 +24,7 @@
     "lucide-vue-next": "^0.477.0",
     "nuxt": "^3.16.1",
     "reka-ui": "^2.1.1",
+    "rimraf": "^6.0.1",
     "tailwind-merge": "^3.0.2",
     "tailwindcss-animate": "^1.0.7",
     "vue": "latest",
@@ -40,6 +41,7 @@
     "playwright-core": "^1.51.1",
     "shadcn-nuxt": "^1.0.3",
     "typescript": "^5.8.2",
+    "unenv": "^1.10.0",
     "vitest": "^2.1.9",
     "vue-tsc": "^2.2.8"
   }
