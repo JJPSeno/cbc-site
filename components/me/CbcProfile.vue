@@ -17,11 +17,20 @@
         src="misc/test3.png"
         as="img"
       />
-      <h1
-        class="font-400 text-6xl"
+      <div
+        class="flex mb-20 items-end"
       >
-        {{ myProfile.displayName }}
-      </h1>
+        <h1
+          class="font-400 text-6xl mr-4"
+        >
+          {{ myProfile.displayName }}
+        </h1>
+        <p
+          class="mb-2"
+        >
+          {{ myProfile.email }}
+        </p>
+      </div>
     </div>
   </div>
 </template>
