@@ -1,29 +1,37 @@
 <template>
   <div 
-    class="flex flex-col h-64 w-full rounded-none md:max-w-standard md:mx-auto md:rounded-3xl shadow-none md:shadow-xl overflow-hidden border-b border-gray-400"
+    class="relative flex flex-col h-64 w-full rounded-none md:max-w-standard md:mx-auto md:rounded-3xl shadow-none md:shadow-xl overflow-hidden border-b border-gray-400"
   > 
     <div
-      class="basis-1/2 w-full bg-accent flex" 
-    >
-      <div
-        class="relative flex w-full rounded-full items-center justify-center"
-      >
-        <CbcAvatar
-          class="absolute translate-y-12"
-          size="xl"
-          src="misc/test.jpg"
-        />
-      </div>
-    </div> 
+      class="relative basis-1/2 w-full bg-accent flex" 
+    />
     <div
-      class="basis-1/2 w-full bg-neutral" 
+      class="relative basis-1/2 w-full bg-neutral"
+    />
+    <div
+      class="absolute w-full h-full flex items-center ml-44"
     >
-    <h1
-        class="relative font-400 text-6xl content-center w-full text-center"
+      <CbcAvatar
+        class="mr-4"
+        size="xl"
+        src="misc/test3.png"
+        as="img"
+      />
+      <div
+        class="flex mb-20 items-end"
       >
-        {{ myProfile.displayName }}
-      </h1>
-    </div> 
+        <h1
+          class="font-400 text-6xl mr-4"
+        >
+          {{ myProfile.displayName }}
+        </h1>
+        <p
+          class="mb-2"
+        >
+          {{ myProfile.email }}
+        </p>
+      </div>
+    </div>
   </div>
 </template>
 <script setup lang="ts">
