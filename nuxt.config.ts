@@ -14,10 +14,6 @@ export default defineNuxtConfig({
     '@nuxt/image',
     'shadcn-nuxt',
   ],
-  shadcn: {
-    prefix: 'Cbc',
-    componentDir: './components/ui'
-  },
   robots: {
     blockNonSeoBots: true
   },
@@ -27,4 +23,8 @@ export default defineNuxtConfig({
       pathPrefix: false
     }
   ],
+  shadcn: {
+    prefix: 'Default',
+    componentDir: './components/ui',
+  },
 })
