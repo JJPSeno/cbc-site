@@ -15,7 +15,7 @@
         class="mr-4"
         size="xl"
         src="misc/test3.png"
-        as="img"
+        :displayName="myProfile.displayName??''"
       />
       <div
         class="flex mb-20 items-end"
