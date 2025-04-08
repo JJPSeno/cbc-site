@@ -1,8 +1,7 @@
-
 <template>
   <CbcForm
     id="register"
-    class="text-black pt-40 md:pt-0"
+    class="text-black pt-40 md:pt-10"
   >
     <CbcInput
       v-model="email"
