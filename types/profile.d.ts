@@ -5,4 +5,5 @@ declare interface Profile {
   displayName?: string
   firstName?: string
   lastName?: string
+  avatar?: string
 }
