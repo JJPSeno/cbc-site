@@ -14,7 +14,7 @@
       <CbcAvatar
         class="mr-4"
         size="xl"
-        src="misc/test3.png"
+        :src="myProfile.avatar"
         :displayName="myProfile.displayName??''"
       />
       <div

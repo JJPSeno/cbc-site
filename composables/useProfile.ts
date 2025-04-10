@@ -3,7 +3,8 @@ export const useProfile = () => {
     return {
       id: "00000020f51bb4362eee2a4d",
       email: "jjp.s@example.com",
-      displayName: "jjps"
+      displayName: "jjps",
+      avatar: "misc/test3.png"
     }
   })
 

@@ -24,6 +24,9 @@ module.exports = {
         h5: ['1rem', { lineHeight: '1.5rem', fontWeight: '600' }],
         h6: ['0.875rem', { lineHeight: '1.25rem', fontWeight: '600' }],
       },
+      backgroundImage: {
+        'cbc': "url('/images/backgrounds/cbc-background.svg')",
+      }
     }
   }
 }

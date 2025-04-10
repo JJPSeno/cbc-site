@@ -4,7 +4,7 @@
       :src="props.src" 
       :alt="`${displayName}'s avatar'`"
     />
-    <AvatarFallback>{{ initials }}</AvatarFallback>
+    <!-- <AvatarFallback>{{ initials }}</AvatarFallback> -->
   </Avatar>
 </template>
 <script setup lang="ts">
@@ -15,7 +15,7 @@ interface Prop {
 }
 
 const props = withDefaults(defineProps<Prop>(), {
-  src: 'icons/profile.svg',
+  src: 'images/icons/profile.svg',
 })
 
 const initials = computed(() => {
